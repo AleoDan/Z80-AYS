@@ -10,7 +10,7 @@ The project make use of some original optimized logic for bus conversion from th
 
 Unlike on the original ZX Spectrums, these ports are better decoded and have only four aliases on the lower half of the address bus, so that they do not overlap over some non-standard ports which HC computers have.
 
-The interface has a stereo jack output and an on-board mono audio amplifier with monitoring speaker.
+The interface has a stereo jack output compatible with Melodik standard and an on-board mono audio amplifier with monitoring speaker.
 The 2 x 8 bit parallel ports of the AY-3-8910 chip are driving some bi-color LEDs for light effects that can be used with or without sound.
 
 The PCB was manually routed, with careful separation and shielding between the analogic and digital sections; for the analog amplifier's ground and power traces a star routing topology was used, to avoid any signal coupling which could lead to distorsions and oscillations.
