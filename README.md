@@ -1,7 +1,7 @@
 This project contains schematic, PCB and gerber files for an external sound interface based on AY-3-8910 sound chip, that is 100% software compatible with the ZX Spectrum 128K, +2, +2A, +3, +2B, and +3B models, but with some enhancements to be also hardware compatible with Romanian Home Computers like HC-91 or HC-2000.
 
 These computers were ZX Spectrum compatible RE-DESIGNS and NOT CLONES, because they use very diferent hardware implementation !
-The "HC" computers have very stable clock oscillator output on the extension connector, so the sound inteface uses this clock and do not need another on-board oscillator.
+All HC computers have very stable clock oscillator output on the extension connector, so the sound inteface uses this clock and do not need another on-board oscillator.
 
 The project make use of some original optimized logic for bus conversion from the Z80 to AY sound chip, so it responds to two ports:
 
