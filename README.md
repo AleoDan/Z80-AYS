@@ -15,4 +15,4 @@ The 2 x 8 bit parallel ports of the AY-3-8910 chip are driving some bi-color LED
 
 The PCB was manually routed, with careful separation and shieldind between the analogic and digital sections; for the analog amplifier's ground and power traces a star routing topology was used, to avoid any signal coupling which could lead to distorsions and oscillations.
 
-Schematic and PCB files are in Altium format, the unified gerber file is in Gerbtool format, but the the individual gerber files are in universal format.
+Schematic and PCB files are in Altium format, the unified gerber file is in Gerbtool format, but the individual gerber files are in universal format.
