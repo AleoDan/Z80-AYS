@@ -8,7 +8,7 @@ The project make use of some original optimized logic for bus conversion from th
 		#BFFD:	write => write selected register contents;	read => read slected register contents;
 		#FFFD:	write => select register;					read => read selected register contents;
 
-Unlike on the original ZX Spectrums, these ports are better decoded and have only four aliases on the lower half of the address bus, so that they do not overlap over some non-standard proprietary ports.
+Unlike on the original ZX Spectrums, these ports are better decoded and have only four aliases on the lower half of the address bus, so that they do not overlap over some non-standard ports which HC computers have.
 
 The interface has a stereo jack output and an on-board mono audio amplifier with monitoring speaker.
 The 2 x 8 bit parallel ports of the AY-3-8910 chip are driving some bi-color LEDs for light effects that can be used with or without sound.
