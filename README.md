@@ -5,7 +5,7 @@ These computers were ZX Spectrum compatible RE-DESIGNS and NOT CLONES, because t
 The project use some original optimized logic for bus conversion from the Z80 to AY sound chip, so it responds to two ports:
 
 		#BFFD:	write => write selected register contents;	read => read slected register contents;
-		#FFFD:	write => select register;										read => read selected register contents;
+		#FFFD:	write => select register;					read => read selected register contents;
 
 The interface has a stereo jack output and an on-board mono audio amplifier with monitoring speaker.
 The 2 x 8 bit parallel ports of the AY-3-8910 chip are driving some bi-color LEDs for light effects that can be used with or without sound.
