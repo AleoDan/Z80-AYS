@@ -13,6 +13,6 @@ Unlike on the original ZX Spectrums, these ports are better decoded and have onl
 The interface has a stereo jack output and an on-board mono audio amplifier with monitoring speaker.
 The 2 x 8 bit parallel ports of the AY-3-8910 chip are driving some bi-color LEDs for light effects that can be used with or without sound.
 
-The PCB was manually routed, with careful separation and shieldind between the analogic and digital sections; for the analog amplifier a star routing topology was implemented for ground and power lines to avoid any signal copling which could lead to distorsions and oscillations.
+The PCB was manually routed, with careful separation and shieldind between the analogic and digital sections; for the analog amplifier's ground and power traces a star routing topology was used, to avoid any signal coupling which could lead to distorsions and oscillations.
 
 Schematic and PCB files are in Altium format, the unified gerber file is in Gerbtool format, but the the individual gerber files are in universal format.
