@@ -3,7 +3,7 @@ This project contains schematic, PCB and gerber files for an external sound inte
 These computers were ZX Spectrum compatible RE-DESIGNS and NOT CLONES, because they use very diferent hardware implementation !
 The "HC" computers have very stable clock oscillator output on the extension connector, so the sound inteface uses this clock and do not need another on-board oscillator.
 
-The project use some original optimized logic for bus conversion from the Z80 to AY sound chip, so it responds to two ports:
+The project make use of some original optimized logic for bus conversion from the Z80 to AY sound chip, so it responds to two ports:
 
 		#BFFD:	write => write selected register contents;	read => read slected register contents;
 		#FFFD:	write => select register;					read => read selected register contents;
