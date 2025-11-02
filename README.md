@@ -8,8 +8,8 @@ All HC computers have very stable system clock output on the extension connector
 
 The project make use of some original optimized logic for bus conversion from the Z80 to AY sound chip, so it responds to two ports:
 
-		#BFFD:	write => write selected register contents;	read => read slected register contents;
-		#FFFD:	write => select register;					read => read selected register contents;
+		#BFFD:	write => write selected register;	read => read selected register;
+		#FFFD:	write => select register;			read => read selected register;
 
 Unlike on the original ZX Spectrums, these ports are better decoded and have only four aliases on the lower half of the address bus, so that they do not overlap over some non-standard ports which HC computers have.
 
