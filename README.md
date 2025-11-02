@@ -1,3 +1,5 @@
+![Top view](Z80-ays_top.jpg)
+
 This project contains schematic, PCB and gerber files for an external sound interface based on AY-3-8910 sound chip, that is 100% software compatible with the ZX Spectrum 128K, +2, +2A, +3, +2B, and +3B models, but with some enhancements to be also hardware compatible with Romanian Home Computers like HC-91 or HC-2000.
 
 These computers were ZX Spectrum compatible RE-DESIGNS and NOT CLONES, because they use very diferent hardware implementation !
